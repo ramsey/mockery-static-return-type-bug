@@ -1,0 +1,19 @@
+{
+    "name": "ramsey/mockery-static-return-type",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "mockery/mockery": "^1.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Foo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Foo\\Tests\\": "src/"
+        }
+    }
+}
